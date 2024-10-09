@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@include('Layouts.css')
+@include('layouts.css')
 
 <body id="page-top">
 
@@ -9,7 +9,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        @include('Layouts.sidebar')
+        @include('layouts.sidebar')
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -19,7 +19,7 @@
             <div id="content">
 
                 <!-- Topbar -->
-                @include('Layouts.navbar')
+                @include('layouts.navbar')
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
@@ -32,7 +32,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            @include('Layouts.footer')
+            @include('layouts.footer')
             <!-- End of Footer -->
 
         </div>
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-    @include('Layouts.js')
+    @include('layouts.js')
 
     @yield('script')
 
